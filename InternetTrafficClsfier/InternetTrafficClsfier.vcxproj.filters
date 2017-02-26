@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{cbca3aa5-0ce8-4ca2-8dac-d96f9cf30842}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{1d15a737-5d40-4279-9878-f0341fa4e9d2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\FuncFiles">
+      <UniqueIdentifier>{9110792e-5a67-439b-bd76-72c5241dbcc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WindowFiles">
+      <UniqueIdentifier>{e4527c33-c23c-4d93-99c5-205c89c0e14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FuncFiles">
+      <UniqueIdentifier>{bbdbc7d0-0d85-4c7d-bf65-dc909bcdada7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WindowFiles">
+      <UniqueIdentifier>{93a5c52f-1985-4dd7-a90e-cf7c3fa799ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\WindowFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ClassifyWin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ClassifyWin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassifyWin.cpp">
+      <Filter>Source Files\WindowFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TabWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TabWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TabWidget.cpp">
+      <Filter>Source Files\WindowFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="StrOperator.cpp">
+      <Filter>Source Files\FuncFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperator.cpp">
+      <Filter>Source Files\FuncFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BayesAlgorithm.cpp">
+      <Filter>Source Files\FuncFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>Source Files\FuncFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ResultWin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ResultWin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultWin.cpp">
+      <Filter>Source Files\WindowFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassifyAlogrithm.cpp">
+      <Filter>Source Files\FuncFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_ResourceFile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FileOperator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FileOperator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WaitDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WaitDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitDialog.cpp">
+      <Filter>Source Files\WindowFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.h">
+      <Filter>Header Files\WindowFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ClassifyWin.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ClassifyWin.h">
+      <Filter>Header Files\WindowFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TabWidget.h">
+      <Filter>Header Files\WindowFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ResultWin.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ResultWin.h">
+      <Filter>Header Files\WindowFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ResourceFile.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileOperator.h">
+      <Filter>Header Files\FuncFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WaitDialog.h">
+      <Filter>Header Files\WindowFiles</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_MainWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ClassifyWin.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Header Files\FuncFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrOperator.h">
+      <Filter>Header Files\FuncFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BayesAlgorithm.h">
+      <Filter>Header Files\FuncFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>Header Files\FuncFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ResultWin.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassifyAlgorithm.h">
+      <Filter>Header Files\FuncFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="InternetTrafficClsfier.rc" />
+  </ItemGroup>
+</Project>
